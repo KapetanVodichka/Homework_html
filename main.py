@@ -305,7 +305,8 @@ class MyServer(BaseHTTPRequestHandler):
                                 </form>
                             </div>
                         </div>
-                        <div class="row">
+                    </div>
+                    <div class="row">
                             <div class="col">
                                 <h2 class="mb-4">FAQ</h2>
                                 <button class="btn btn-link" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
@@ -313,7 +314,7 @@ class MyServer(BaseHTTPRequestHandler):
                                 </button>
                                 <div class="collapse" id="collapse1">
                                     <div class="card card-body">
-                                        Здесь будет ответ на вопрос "Как купить?"
+                                        Легко!
                                     </div>
                                 </div>
                                 
@@ -322,7 +323,7 @@ class MyServer(BaseHTTPRequestHandler):
                                 </button>
                                 <div class="collapse" id="collapse2">
                                     <div class="card card-body">
-                                        Здесь будет ответ на вопрос "Как доставить?"
+                                        Быстро!
                                     </div>
                                 </div>
                                 
@@ -331,7 +332,7 @@ class MyServer(BaseHTTPRequestHandler):
                                 </button>
                                 <div class="collapse" id="collapse3">
                                     <div class="card card-body">
-                                        Здесь будет ответ на вопрос "Какая гарантия?"
+                                        На всё воля божья :3
                                     </div>
                                 </div>
                             </div>
@@ -339,9 +340,7 @@ class MyServer(BaseHTTPRequestHandler):
                     </div>
                 </div>
             </main>
-
         </div>
-
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
