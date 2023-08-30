@@ -284,25 +284,29 @@ class MyServer(BaseHTTPRequestHandler):
                             <div class="card-header py-3">
                                 <h4 class="my-0 fw-normal">Товар 1</h4>
                             </div>
-                            <div class="card-body">
-                                <h2 class="card-title pricing-card-title">$100</h2>
-                                <p>
-                                    10 users included,
-                                    2 GB of storage,
-                                    Email support,
-                                    Help center access
-                                </p>
-                                <button type="button" class="w-100 btn btn-lg btn-success">Купить</button>
-                                <form class="mt-4">
-                                    <div class="mb-3">
-                                        <label for="name" class="form-label">Имя</label>
-                                        <input type="text" class="form-control" id="name" required>
+                            <div class="card-body d-flex flex-column">
+                                <div class="d-flex justify-content-between align-items-start mb-4">
+                                    <div>
+                                        <h2 class="card-title pricing-card-title">$100</h2>
+                                        <p>
+                                            10 users included,
+                                            2 GB of storage,
+                                            Email support,
+                                            Help center access
+                                        </p>
+                                        <button type="button" class="btn btn-lg btn-success">Купить</button>
                                     </div>
-                                    <div class="mb-3">
-                                        <label for="email" class="form-label">Email</label>
-                                        <input type="email" class="form-control" id="email" required>
-                                    </div>
-                                </form>
+                                    <form class="ms-4">
+                                        <div class="mb-3">
+                                            <label for="name" class="form-label">Имя</label>
+                                            <input type="text" class="form-control" id="name" required>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="email" class="form-label">Email</label>
+                                            <input type="email" class="form-control" id="email" required>
+                                        </div>
+                                    </form>
+                                </div>
                             </div>
                         </div>
                     </div>
